@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This package uses GPT4V to auto-confirm a user's email subscription ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/Jellypod-Inc/email-subscription-confirmation-agent/issues"
   },
-  "homepage": "https://github.com/Jellypod-Inc/email-subscription-confirmation-agent#readme"
+  "homepage": "https://github.com/Jellypod-Inc/email-subscription-confirmation-agent#readme",
+  "dependencies": {
+    "openai": "^4.33.0",
+    "puppeteer": "^22.6.4",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
 }
