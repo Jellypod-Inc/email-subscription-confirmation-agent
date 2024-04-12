@@ -1,0 +1,27 @@
+{
+  "name": "email-subscription-confirmation-agent",
+  "version": "1.0.0",
+  "description": "This package uses GPT4V to auto-confirm a user's email subscription ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jellypod-Inc/email-subscription-confirmation-agent.git"
+  },
+  "keywords": [
+    "agent",
+    "ai",
+    "gpt4v",
+    "email",
+    "subscription",
+    "confirmation"
+  ],
+  "author": "Jellypod, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jellypod-Inc/email-subscription-confirmation-agent/issues"
+  },
+  "homepage": "https://github.com/Jellypod-Inc/email-subscription-confirmation-agent#readme"
+}
